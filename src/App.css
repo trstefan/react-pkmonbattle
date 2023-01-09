@@ -1,0 +1,25 @@
+.container {
+  display: flex;
+  height: 70vh;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 70px;
+}
+
+.pokemon-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.pokemon-name,
+.hp {
+  font-size: 2rem;
+}
+
+img {
+  width: 100px;
+  height: 100px;
+}
